@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEKAPAW</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="top-bar">MEKAPAW</div>
+        <div class="banner"><img src="/img/portada1280x720_7-1024x576.jpg" alt=""></div>
+    </header>
+
+    <main>
+        <section class="product-grid">
+            <div class="product">
+                <div class="image-container" data-index="0">
+                    <img src="/img/ferulacarpo01.webp" class="product-image" onclick="openImage('/img/ferulacarpo01.webp')">
+                    <div class="nav-arrow left" onclick="changeImage(0, -1)">&#10094;</div>
+                    <div class="nav-arrow right" onclick="changeImage(0, 1)">&#10095;</div>
+                </div>
+                <div class="description">
+                    <h1>Férula de Carpo</h1>
+                    <hr>
+                    <p class="Tamanos">Tamaños disponibles:<br></p>
+                    <div class="Medidas">
+                        <div class="button" data-size="XXS">XXS</div>
+                        <div class="button" data-size="XS">XS</div>
+                        <div class="button" data-size="S">S</div>
+                        <div class="button" data-size="M">M</div>
+                        <div class="button" data-size="L">L</div>
+                        <div class="button" data-size="XL">XL</div>
+                        <div class="button" data-size="XXL">XXL</div>
+                    </div>
+                    <hr>
+                    <div id="product-description"></div>
+                    <div class="product-details">
+                        <p class="price">$$$$$</p>
+                        <p class="shipping">Este envío es mediante International DHL</p>
+                        <div class="quantity-selector">
+                            <label for="quantity">Cantidad:</label>
+                            <input type="number" id="quantity" name="quantity" value="1" min="1">
+                        </div>
+                        <div class="actions">
+                            <button class="add-to-cart">Agregar al carro</button>
+                            <button class="buy-now">Comprar ahora</button>
+                        </div>
+                    </div>
+                    <h2>Sobre este producto</h2>
+                    <p>Brinda soporte y estabilidad a la articulación del carpo en perros con esguinces, fracturas o debilidad en la pata delantera. Su diseño anatómico y rígido ayuda a inmovilizar la zona afectada, favoreciendo una recuperación más rápida y efectiva. Fabricada con materiales ligeros y resistentes, incluye correas ajustables para un ajuste seguro y cómodo. ¡Ideal para perros en rehabilitación!</p>
+                    <p class="enlace"><b>Más sobre este producto >>>>>> </b></p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image-container" data-index="1">
+                    <img src="img2.jpg" class="product-image" onclick="openImage('img2.jpg')">
+                    <div class="nav-arrow left" onclick="changeImage(1, -1)">&#10094;</div>
+                    <div class="nav-arrow right" onclick="changeImage(1, 1)">&#10095;</div>
+                </div>
+                <div class="description">
+                    <h1>Férula de Corvejón</h1>
+                    <hr>
+                    <p class="Tamanos">Tamaños disponibles:<br></p>
+                    <div class="Medidas2">
+                        <div class="button" data-size="XXS">XXS</div>
+                        <div class="button" data-size="XS">XS</div>
+                        <div class="button" data-size="S">S</div>
+                        <div class="button" data-size="M">M</div>
+                        <div class="button" data-size="L">L</div>
+                        <div class="button" data-size="XL">XL</div>
+                        <div class="button" data-size="XXL">XXL</div>
+                    </div>
+                    <hr>
+                    <div id="product-description-2"></div>
+                    <div class="product-details">
+                        <p class="price">$$$$$</p>
+                        <p class="shipping">Este envío es mediante International DHL</p>
+                        <div class="quantity-selector">
+                            <label for="quantity-2">Cantidad:</label>
+                            <input type="number" id="quantity-2" name="quantity-2" value="1" min="1">
+                        </div>
+                        <div class="actions">
+                            <button class="add-to-cart-2">Agregar al carro</button>
+                            <button class="buy-now-2">Comprar ahora</button>
+                        </div>
+                    </div>
+                    <h2>Sobre este producto</h2>
+                    <p>Diseñada para perros con lesiones en el corvejón, esta férula proporciona una inmovilización óptima sin sacrificar comodidad. Ideal para fracturas, luxaciones o debilidad articular, ayuda a estabilizar la extremidad trasera permitiendo una mejor recuperación. Su estructura ergonómica y correas ajustables aseguran un ajuste preciso. Recomendado por veterinarios para tratamientos postquirúrgicos.</p>
+                    <p class="enlace"><b>Más sobre este producto >>>>>> </b></p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image-container" data-index="2">
+                    <img src="/img/ferulacorta01.webp" class="product-image" onclick="openImage('/img/ferulacorta01')">
+                    <div class="nav-arrow left" onclick="changeImage(2, -1)">&#10094;</div>
+                    <div class="nav-arrow right" onclick="changeImage(2, 1)">&#10095;</div>
+                </div>
+                <div class="description">
+                    <h1>Férula de Tarso Corta</h1>
+                    <hr>
+                    <p class="Tamanos">Tamaños disponibles:<br></p>
+                    <div class="Medidas3">
+                        <div class="button" data-size="XXS">XXS</div>
+                        <div class="button" data-size="XS">XS</div>
+                        <div class="button" data-size="S">S</div>
+                        <div class="button" data-size="M">M</div>
+                        <div class="button" data-size="L">L</div>
+                        <div class="button" data-size="XL">XL</div>
+                        <div class="button" data-size="XXL">XXL</div>
+                    </div>
+                    <hr>
+                    <div id="product-description-3"></div>
+                    <div class="product-details">
+                        <p class="price">$$$$$</p>
+                        <p class="shipping">Este envío es mediante International DHL</p>
+                        <div class="quantity-selector">
+                            <label for="quantity-3">Cantidad:</label>
+                            <input type="number" id="quantity-3" name="quantity-3" value="1" min="1">
+                        </div>
+                        <div class="actions">
+                            <button class="add-to-cart-3">Agregar al carro</button>
+                            <button class="buy-now-3">Comprar ahora</button>
+                        </div>
+                    </div>
+                    <h2>Sobre este producto</h2>
+                    <p>La mejor opción para perros con fracturas o lesiones en la parte inferior de la pata. La férula de bota corta cubre desde la parte baja de la pierna hasta la zona plantar, brindando soporte rígido y estable. Su diseño cerrado protege la extremidad contra golpes y suciedad, favoreciendo una recuperación segura. Fácil de colocar y ajustar gracias a sus correas de velcro reforzado.</p>
+                    <p class="enlace"><b>Más sobre este producto >>>>>> </b></p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image-container" data-index="3">
+                    <img src="img4.jpg" class="product-image" onclick="openImage('img4.jpg')">
+                    <div class="nav-arrow left" onclick="changeImage(3, -1)">&#10094;</div>
+                    <div class="nav-arrow right" onclick="changeImage(3, 1)">&#10095;</div>
+                </div>
+                <div class="description">
+                    <h1>Férula Tarso</h1>
+                    <hr>
+                    <p class="Tamanos">Tamaños disponibles:<br></p>
+                    <div class="Medidas4">
+                        <div class="button" data-size="XXS">XXS</div>
+                        <div class="button" data-size="XS">XS</div>
+                        <div class="button" data-size="S">S</div>
+                        <div class="button" data-size="M">M</div>
+                        <div class="button" data-size="L">L</div>
+                        <div class="button" data-size="XL">XL</div>
+                        <div class="button" data-size="XXL">XXL</div>
+                    </div>
+                    <hr>
+                    <div id="product-description-4"></div>
+                    <div class="product-details">
+                        <p class="price">$$$$$</p>
+                        <p class="shipping">Este envío es mediante International DHL</p>
+                        <div class="quantity-selector">
+                            <label for="quantity-4">Cantidad:</label>
+                            <input type="number" id="quantity-4" name="quantity-4" value="1" min="1">
+                        </div>
+                        <div class="actions">
+                            <button class="add-to-cart-4">Agregar al carro</button>
+                            <button class="buy-now-4">Comprar ahora</button>
+                        </div>
+                    </div>
+                    <h2>Sobre este producto</h2>
+                    <p>La férula de tarso corta está diseñada para brindar estabilidad y soporte a la articulación del tarso en perros con lesiones, debilidad o recuperación postoperatoria. Su estructura rígida y anatómica proporciona una inmovilización segura sin comprometer la comodidad del perro.
+
+                        Fabricada con materiales resistentes y ligeros, esta órtesis ayuda a reducir la carga sobre la extremidad afectada y previene lesiones secundarias. Es fácil de colocar gracias a sus correas ajustables y su diseño ergonómico se adapta a diferentes razas y tamaños.</p>
+                    <p class="enlace"><b>Más sobre este producto >>>>>> </b></p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image-container" data-index="4">
+                    <img src="img5.jpg" class="product-image" onclick="openImage('img5.jpg')">
+                    <div class="nav-arrow left" onclick="changeImage(4, -1)">&#10094;</div>
+                    <div class="nav-arrow right" onclick="changeImage(4, 1)">&#10095;</div>
+                </div>
+                <div class="description">
+                    <h1>Férula de Tarso Alta</h1>
+                    <hr>
+                    <p class="Tamanos">Tamaños disponibles:<br></p>
+                    <div class="Medidas5">
+                        <div class="button" data-size="XXS">XXS</div>
+                        <div class="button" data-size="XS">XS</div>
+                        <div class="button" data-size="S">S</div>
+                        <div class="button" data-size="M">M</div>
+                        <div class="button" data-size="L">L</div>
+                        <div class="button" data-size="XL">XL</div>
+                        <div class="button" data-size="XXL">XXL</div>
+                    </div>
+                    <hr>
+                    <div id="product-description-5"></div>
+                    <div class="product-details">
+                        <p class="price">$$$$$</p>
+                        <p class="shipping">Este envío es mediante International DHL</p>
+                        <div class="quantity-selector">
+                            <label for="quantity-5">Cantidad:</label>
+                            <input type="number" id="quantity-5" name="quantity-5" value="1" min="1">
+                        </div>
+                        <div class="actions">
+                            <button class="add-to-cart-5">Agregar al carro</button>
+                            <button class="buy-now-5">Comprar ahora</button>
+                        </div>
+                    </div>
+                    <h2>Sobre este producto</h2>
+                    <p>La mejor opción para perros con fracturas o lesiones en la parte inferior de la pata. La férula de bota corta cubre desde la parte baja de la pierna hasta la zona plantar, brindando soporte rígido y estable. Su diseño cerrado protege la extremidad contra golpes y suciedad, favoreciendo una recuperación segura. Fácil de colocar y ajustar gracias a sus correas de velcro reforzado.</p>
+                    <p class="enlace"><b>Más sobre este producto >>>>>> </b></p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image-container" data-index="5">
+                    <img src="img6.jpg" class="product-image" onclick="openImage('img6.jpg')">
+                    <div class="nav-arrow left" onclick="changeImage(5, -1)">&#10094;</div>
+                    <div class="nav-arrow right" onclick="changeImage(5, 1)">&#10095;</div>
+                </div>
+                <div class="description">
+                    <h1>Férula ajustable</h1>
+                    <hr>
+                    <p class="Tamanos">Tamaños disponibles:<br></p>
+                    <div class="Medidas6">
+                        <div class="button" data-size="XXS">XXS</div>
+                        <div class="button" data-size="XS">XS</div>
+                        <div class="button" data-size="S">S</div>
+                        <div class="button" data-size="M">M</div>
+                        <div class="button" data-size="L">L</div>
+                        <div class="button" data-size="XL">XL</div>
+                        <div class="button" data-size="XXL">XXL</div>
+                    </div>
+                    <hr>
+                    <div id="product-description-6"></div>
+                    <div class="product-details">
+                        <p class="price">$$$$$</p>
+                        <p class="shipping">Este envío es mediante International DHL</p>
+                        <div class="quantity-selector">
+                            <label for="quantity-6">Cantidad:</label>
+                            <input type="number" id="quantity-6" name="quantity-6" value="1" min="1">
+                        </div>
+                        <div class="actions">
+                            <button class="add-to-cart-6">Agregar al carro</button>
+                            <button class="buy-now-6">Comprar ahora</button>
+                        </div>
+                    </div>
+                    <h2>Sobre este producto</h2>
+                    <p>Versatilidad y comodidad en un solo producto. Su sistema de ajuste permite modificar el soporte según la necesidad del perro, brindando un tratamiento flexible para distintas lesiones. Ideal para perros en rehabilitación progresiva, permite una recuperación adaptada al progreso del animal. Confeccionada con materiales livianos y duraderos para una experiencia óptima.</p>
+                    <p class="enlace"><b>Más sobre este producto >>>>>> </b></p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image-container" data-index="6">
+                    <img src="img7.jpg" class="product-image" onclick="openImage('img7.jpg')">
+                    <div class="nav-arrow left" onclick="changeImage(6, -1)">&#10094;</div>
+                    <div class="nav-arrow right" onclick="changeImage(6, 1)">&#10095;</div>
+                </div>
+                <div class="description">
+                    <h1>Tablilla</h1>
+                    <hr>
+                    <p class="Tamanos">Tamaños disponibles:<br></p>
+                    <div class="Medidas7">
+                        <div class="button" data-size="XXS">XXS</div>
+                        <div class="button" data-size="XS">XS</div>
+                        <div class="button" data-size="S">S</div>
+                        <div class="button" data-size="M">M</div>
+                        <div class="button" data-size="L">L</div>
+                        <div class="button" data-size="XL">XL</div>
+                        <div class="button" data-size="XXL">XXL</div>
+                    </div>
+                    <hr>
+                    <div id="product-description-7"></div>
+                    <div class="product-details">
+                        <p class="price">$$$$$</p>
+                        <p class="shipping">Este envío es mediante International DHL</p>
+                        <div class="quantity-selector">
+                            <label for="quantity-7">Cantidad:</label>
+                            <input type="number" id="quantity-7" name="quantity-7" value="1" min="1">
+                        </div>
+                        <div class="actions">
+                            <button class="add-to-cart-7">Agregar al carro</button>
+                            <button class="buy-now-7">Comprar ahora</button>
+                        </div>
+                    </div>
+                    <h2>Sobre este producto</h2>
+                    <p>Una solución práctica y efectiva para lesiones leves. Estas tablillas brindan estabilidad y soporte para fracturas menores o rehabilitación de lesiones articulares. Su diseño perforado permite ventilación óptima, reduciendo el riesgo de irritaciones en la piel. Ligeras, resistentes y fáciles de colocar. Perfectas para primeros auxilios en casa o soporte veterinario.
+                    </p>
+                    <p class="enlace"><b>Más sobre este producto >>>>>> </b></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Información y redes sociales</p>
+    </footer>
+</body>
+</html>
